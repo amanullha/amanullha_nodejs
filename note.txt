@@ -1,0 +1,19 @@
+npm install -g @nestjs/cli
+npm install --save @nestjs/mongoose mongoose
+npm install class-validator class-transformer
+npm i bcryptjs
+import * as bcrypt from 'bcryptjs';
+dotenv.config();
+import * as dotenv from 'dotenv';
+npm install --save @nestjs/jwt
+npm install passport-jwt
+npm install --save @nestjs/jwt @nestjs/passport passport-jwt
+
+
+await this.userModel.findByIdAndRemove(id).exec()
+const updatedUser = await this.userModel.findByIdAndUpdate(id, updateUserDto, { new: true }).exec();
+const user = await this.userModel.findById(id).exec();
+const users = await (await this.userModel.find().exec()).map((user) => user.toObject());
+
+
+
